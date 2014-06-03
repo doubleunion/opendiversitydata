@@ -1,0 +1,19 @@
+safe: true
+permalink: pretty
+markdown: kramdown
+
+title: Open Diversity Data
+author: Double Union
+description:
+    List of companies who have released data about their employee diversity, including EEO-1 forms.
+url: http://opendiversitydata.org
+repo: https://github.com/doubleunion/opendiversitydata
+img: img/logo.png
+
+exclude:
+    - CNAME
+    - CONTRIBUTING.md
+    - LICENSE
+    - README.md
+    - Rakefile
+    - verify.rb

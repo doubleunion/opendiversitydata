@@ -1,0 +1,12 @@
+sections:
+  - id: tech
+    title: Technology
+    icon: code
+
+  - id: banking
+    title: Banking / Finance
+    icon: dollar
+
+  - id: other
+    title: Other
+    icon: globe

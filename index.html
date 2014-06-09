@@ -9,36 +9,6 @@ tweet_progress: Thanks for working on releasing your diversity data, @TWITTERHAN
 hash: #DiversityData
 ---
 
-<div class="ui fixed transparent inverted teal main menu">
-    <div class="menu">
-        <div class="right menu">
-            <a href="{{ site.repo }}" class="item">
-                Contribute
-            </a>
-        </div>
-
-        <a href="/" class="item">
-            <i class="home icon"></i>
-            Home
-        </a>
-
-        <div class="ui dropdown item">
-            Categories <i class="dropdown icon"></i>
-            <div class="menu">
-                {% for section in site.data.main.sections %}
-                <a href="{% if forloop.first %}#{% else %}#{{ section.id }}{% endif %}" class="item">
-                    <i class="{{ section.icon }} icon"></i>
-                    {{ section.title }}
-                </a>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="main container">
-    <div class="ui grid">
-        <div class="column">
 
             <div class="banner ui icon header">
                 <i class="circular mobile icon"></i>
@@ -64,12 +34,12 @@ hash: #DiversityData
                     <tbody>
                         {% assign section_file = company.data[industry.id] %}
 
-{% capture company_names %}
-{% for company in section_file.companyies %}
-{{ company.name | downcase }}
-{% unless forloop.last %},{% endunless %}
-{% endfor %}
-{% endcapture %}
+                        {% capture company_names %}
+                        {% for company in section_file.companyies %}
+                        {{ company.name | downcase }}
+                        {% unless forloop.last %},{% endunless %}
+                        {% endfor %}
+                        {% endcapture %}
 
                         {% assign lowercase_names = website_names | split:',' | sort %}
 
@@ -171,7 +141,3 @@ hash: #DiversityData
             {% endunless %}
             </div><!-- Section -->
         {% endfor %}
-
-        </div><!-- Column -->
-    </div><!-- UI Grid -->
-</div><!-- Main Container -->

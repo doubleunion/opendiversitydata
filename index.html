@@ -10,17 +10,17 @@ hash: #DiversityData
 ---
 
 
-            <div class="banner ui icon header">
-                <i class="circular mobile icon"></i>
-                <h2>Open Diversity Data</h2>
-                <div class="sub header">List of companies and whether or not they publish data about their employee demographics and diversity.
-                </div>
-                <div class="sub header">
-                    Add companies you're interested in by <a href="https://github.com/doubleunion/opendiversitydata">submitting a pull request or issue</a>.
-                </div>
-            </div>
+    <div class="banner ui icon header">
+        <i class="circular mobile icon"></i>
+        <h2>Open Diversity Data</h2>
+        <div class="sub header">List of companies and whether or not they publish data about their employee demographics and diversity.
+        </div>
+        <div class="sub header">
+            Add companies you're interested in by <a href="https://github.com/doubleunion/opendiversitydata">submitting a pull request or issue</a>.
+        </div>
+    </div>
 
-        {% for section in company.data.main.sections %}
+        {% for section in site.data.main.sections %}
             <div id="{{ section.id }}" class="section">
                 <table class="ui table celled compact segment">
                     <thead>
@@ -35,13 +35,13 @@ hash: #DiversityData
                         {% assign section_file = company.data[industry.id] %}
 
                         {% capture company_names %}
-                        {% for company in section_file.companyies %}
+                        {% for company in section_file.companies %}
                         {{ company.name | downcase }}
                         {% unless forloop.last %},{% endunless %}
                         {% endfor %}
                         {% endcapture %}
 
-                        {% assign lowercase_names = website_names | split:',' | sort %}
+                        {% assign lowercase_names = company_names | split:',' | sort %}
 
                         {% for item in (0..lowercase_names.size) %}
                             {% capture lowercase_name %}{{ lowercase_names[item] | strip | strip_newlines }}{% endcapture %}

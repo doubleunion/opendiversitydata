@@ -3,7 +3,7 @@ companies:
     url: https://www.apple.com/
     twitter: Apple
     img: apple.png
-    data: No
+    diversitydata: No
     eeo-1: No
     women-in-software-eng: No
     documentation: <link to company's diversity data>
@@ -12,7 +12,7 @@ companies:
     url: https://www.company.com/
     twitter: CompanyTwitter
     img: company.png
-    data: No
+    diversitydata: No
     eeo-1: No
     women-in-software-eng: No
     documentation: <link to company's diversity data>
@@ -21,7 +21,7 @@ companies:
     url: https://www.company.com/
     twitter: CompanyTwitter
     img: company.png
-    data: No
+    diversitydata: No
     eeo-1: No
     women-in-software-eng: No
     documentation: <link to company's diversity data>
@@ -30,7 +30,8 @@ companies:
     url: https://www.company.com/
     twitter: CompanyTwitter
     img: company.png
-    data: No
+    diversitydata: No
     eeo-1: No
     women-in-software-eng: No
     documentation: <link to company's diversity data>
+

@@ -1,0 +1,10 @@
+companies:
+  - name: Soemthing
+    url: https://www.whatever.com/
+    twitter: Soemthing
+    img: apple.png
+    diversitydata: No
+    eeo-1: No
+    women-in-software-eng: No
+    documentation: <link to company's diversity data>
+

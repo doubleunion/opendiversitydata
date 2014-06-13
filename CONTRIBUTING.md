@@ -3,13 +3,14 @@ Contributing to diversitydatapledge.org
 
 ## Contributing
 
-The easiest way to contribute is to file an issue in [Github][https://github.com/doubleunion/opendiversitydata/issues]. If you're interested in contributing via pull request, read on.
+The easiest way to contribute is to file an issue in [Github][https://github.com/doubleunion/opendiversitydata/issues].
+If you're interested in contributing via pull request, read on.
 
 All the data is managed through a series of [Yaml][yaml] files so it may be useful to read
 up on the Yaml syntax.
 
 To add a new company, go to the [data files](_data/) and get familiar with
-how it is set up. There is a section and corresponding file for each Category and they all follow this
+how it is set up. There is a section and corresponding file for each category and they all follow this
 syntax:
 
 ### Guidelines
@@ -49,8 +50,6 @@ sections:
 #### Pro Tips
 
 - See Guideline #1 about icons. The png file should go in the corresponding `img/section` folder.
-
-- Only the 2FA methods implemented by a site need a `yes` tag, the others can just be left off completely.
 
 - For the sake of organization and readability, it is appreciated if you insert new companies alphabetically and
 that your company chunk follow the same order as the example above.

@@ -38,7 +38,7 @@ hash: #DiversityData
                     </thead>
                     <tbody>
                         {% assign section_file = site.data[section.id] %}
-
+<!-- Ignore your urge to indent, this must be left aligned. See commit 425e2529f33dc85fe4778d22671edfb274f9eac4. -->
 {% capture company_names %}
 {% for company in section_file.companies %}
 {{ company.name | downcase }}

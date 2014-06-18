@@ -29,13 +29,13 @@ companies:
     documentation: <link to company's diversity data>
     status: no
 
-  - name: Company Name
-    url: https://www.company.com/
+  - name: Yahoo
+    url: https://www.yahoo.com/
     twitter: CompanyTwitter
-    img: company.png
-    diversitydata: No
+    img: yahoo.png
+    diversitydata: Yes
     eeo-1: No
     women-in-software-eng: No
-    documentation: <link to company's diversity data>
+    documentation: http://yahoo.tumblr.com/post/89085398949/workforce-diversity-at-yahoo
     status: no
 

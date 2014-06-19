@@ -7,31 +7,31 @@ companies:
     eeo-1: No
     women-in-software-eng: No
     documentation: <link to company's diversity data>
-    status: no
+    status: No
 
   - name: LinkedIn
     url: https://www.company.com/
-    twitter: CompanyTwitter
-    img: company.png
-    diversitydata: No
-    eeo-1: No
+    twitter: LinkedIn
+    img: linkedin.jpeg
+    diversitydata: Yes
+    eeo-1: Yes
     women-in-software-eng: No
-    documentation: <link to company's diversity data>
+    documentation: http://blog.linkedin.com/2014/06/12/linkedins-workforce-diversity/
     status: no
 
   - name: Google
-    url: https://www.company.com/
-    twitter: CompanyTwitter
-    img: company.png
-    diversitydata: No
-    eeo-1: No
+    url: https://www.google.com/
+    twitter: googledevs
+    img: google.png
+    diversitydata: Yes
+    eeo-1: Yes
     women-in-software-eng: No
-    documentation: <link to company's diversity data>
+    documentation: http://www.google.com/diversity/at-google.html
     status: no
 
   - name: Yahoo
     url: https://www.yahoo.com/
-    twitter: CompanyTwitter
+    twitter: Yahoo
     img: yahoo.png
     diversitydata: Yes
     eeo-1: No

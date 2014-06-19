@@ -83,7 +83,8 @@ td img.icon {
 
 .ui.table tr.positive td,
 .ui.table td.positive {
-    background-color: #dff0d8 !important;
+    background-color: #c9e9e0 !important;
+/*    background-color: #dff0d8 !important;*/
 }
 
 .ui.celled.table tr.positive:hover td,
@@ -96,7 +97,8 @@ td img.icon {
 
 .ui.table tr.negative td,
 .ui.table td.negative {
-    background-color: #f2dede !important;
+    background-color: #fcdfd3 !important;
+/*    background-color: #f2dede !important;*/
 }
 
 .ui.celled.table tr.negative:hover td,
@@ -104,7 +106,8 @@ td img.icon {
 .ui.table tr.negative:hover td,
 .ui.table td:hover.negative,
 .ui.table th:hover.negative {
-    background-color: #f2dede !important;
+    background-color: #fac7b0 !important;
+/*    background-color: #f2dede !important;*/
 }
 
 @media only screen and (max-width: 1199px) {

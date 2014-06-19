@@ -57,9 +57,9 @@ hash: DiversityData
                                 <tr>
                                     {% if company.diversitydata %}
                                     <td class="main positive">
-                                        {% if company.img %}
+                                    {% if company.img %}
                                         <img src="/img/{{ section.id }}/{{ company.img }}" class="icon" alt="{{ company.name }}">
-                                        {% endif %}
+                                    {% endif %}
                                         <a href="{{ company.url }}">{{ company.name }}</a>
                                     </td>
 

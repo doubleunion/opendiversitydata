@@ -39,3 +39,173 @@ companies:
     documentation: http://yahoo.tumblr.com/post/89085398949/workforce-diversity-at-yahoo
     status: no
 
+  - name: Amazon
+    url: https://www.amazon.com/
+    twitter: Amazon
+    img: amazon.jpeg
+    diversitydata: No
+    eeo-1: No
+    women-in-software-eng: No
+    documentation: <link to company's diversity data>
+    status: No
+
+  - name: Cisco
+    url: https://www.cisco.com/
+    twitter: Cisco
+    img: cisco.jpeg
+    diversitydata: Yes
+    eeo-1: Yes
+    women-in-software-eng: No
+    documentation: http://money.cnn.com/interactive/technology/tech-diversity-data/
+    status: No
+
+  - name: Dell
+    url: https://www.dell.com/
+    twitter: Dell
+    img: dell.jpeg
+    diversitydata: Yes
+    eeo-1: Yes
+    women-in-software-eng: No
+    documentation: http://money.cnn.com/interactive/technology/tech-diversity-data/
+    status: No
+
+  - name: Hulu
+    url: https://www.hulu.com/
+    twitter: Hulu
+    img: hulu.png
+    diversitydata: No
+    eeo-1: No
+    women-in-software-eng: No
+    documentation: <link to company's diversity data>
+    status: No
+
+  - name: eBay
+    url: https://www.ebay.com/
+    twitter: eBay
+    img: ebay.jpeg
+    diversitydata: No
+    eeo-1: No
+    women-in-software-eng: No
+    documentation: http://money.cnn.com/interactive/technology/tech-diversity-data/
+    status: No
+
+  - name: Facebook
+    url: https://www.facebook.com/
+    twitter: Facebook
+    img: facebook.png
+    diversitydata: No
+    eeo-1: No
+    women-in-software-eng: No
+    documentation: <link to company's diversity data>
+    status: No
+
+  - name: Groupon
+    url: https://www.groupon.com/
+    twitter: Groupon
+    img: groupon.png
+    diversitydata: No
+    eeo-1: No
+    women-in-software-eng: No
+    documentation: <link to company's diversity data>
+    status: No
+
+  - name: Hewlett-Packard
+    url: https://www.hp.com/
+    twitter: HP
+    img: HP.png
+    diversitydata: No
+    eeo-1: No
+    women-in-software-eng: No
+    documentation: <link to company's diversity data>
+    status: No
+
+  - name: Ingram Micro
+    url: http://www.ingrammicro.com/
+    twitter: IngramMicroInc
+    img: ingrammicro.jpeg
+    diversitydata: Yes
+    eeo-1: Yes
+    women-in-software-eng: No
+    documentation: http://money.cnn.com/interactive/technology/tech-diversity-data/
+    status: No
+
+  - name: IBM
+    url: https://www.ibm.com/
+    twitter: IBM
+    img: ibm.jpeg
+    diversitydata: No
+    eeo-1: No
+    women-in-software-eng: No
+    documentation: <link to company's diversity data>
+    status: No
+
+  - name: Intel
+    url: http://www.intel.com/
+    twitter: Intel
+    img: intel.jpeg
+    diversitydata: Yes
+    eeo-1: Yes
+    women-in-software-eng: No
+    documentation: http://money.cnn.com/interactive/technology/tech-diversity-data/
+    status: No
+
+  - name: Living Social
+    url: https://www.livingsocial.com/
+    twitter: LivingSocial
+    img: livingsocial.jpeg
+    diversitydata: No
+    eeo-1: No
+    women-in-software-eng: No
+    documentation: <link to company's diversity data>
+    status: No
+
+  - name: Microsoft
+    url: http://www.microsoft.com/
+    twitter: Microsoft
+    img: microsoft.jpeg
+    diversitydata: No
+    eeo-1: No
+    women-in-software-eng: No
+    documentation: <link to company's diversity data>
+    status: No
+
+  - name: Netflix
+    url: https://www.netflix.com/
+    twitter: Netflix
+    img: netflix.jpeg
+    diversitydata: No
+    eeo-1: No
+    women-in-software-eng: No
+    documentation: <link to company's diversity data>
+    status: No
+
+  - name: Twitter
+    url: http://www.twitter.com/
+    twitter: Twitter
+    img: twitter.jpeg
+    diversitydata: No
+    eeo-1: No
+    women-in-software-eng: No
+    documentation: <link to company's diversity data>
+    status: No
+
+  - name: Yelp
+    url: https://www.yelp.com/
+    twitter: Yelp
+    img: yelp.jpeg
+    diversitydata: No
+    eeo-1: No
+    women-in-software-eng: No
+    documentation: <link to company's diversity data>
+    status: No
+
+  - name: Zynga
+    url: https://www.zynga.com/
+    twitter: Zynga
+    img: zynga.jpeg
+    diversitydata: No
+    eeo-1: No
+    women-in-software-eng: No
+    documentation: <link to company's diversity data>
+    status: No
+

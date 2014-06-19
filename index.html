@@ -32,12 +32,13 @@ hash: #DiversityData
                         <tr>
                             <th class="eleven wide"><h2>{{ section.title }}</h2></th>
                             <th>Docs</th>
-                            <th>Any Data?</th>
                             <th>EEO-1</th>
+                            <th>Women in Engineer</th>
                         </tr>
                     </thead>
                     <tbody>
                         {% assign section_file = site.data[section.id] %}
+
 <!-- Ignore your urge to indent, this must be left aligned. See commit 425e2529f33dc85fe4778d22671edfb274f9eac4. -->
 {% capture company_names %}
 {% for company in section_file.companies %}
@@ -53,42 +54,61 @@ hash: #DiversityData
                             {% for company in section_file.companies %}
                                 {% assign current_name = company.name | downcase %}
                                 {% if lowercase_name == current_name %}
-                                    <tr>
-        {% if company.diversitydata %}
-            <td class="main positive">
-                {% if company.img %}
-                <img src="/img/{{ section.id }}/{{ company.img }}" class="icon" alt="{{ company.name }}">
-                {% endif %}
-                <a href="{{ company.url }}">{{ company.name }}</a>
-            </td>
+                                <tr>
+                                    {% if company.diversitydata %}
+                                    <td class="main positive">
+                                        {% if company.img %}
+                                        <img src="/img/{{ section.id }}/{{ company.img }}" class="icon" alt="{{ company.name }}">
+                                        {% endif %}
+                                        <a href="{{ company.url }}">{{ company.name }}</a>
+                                    </td>
 
-            <td class="positive icon">
-                {% if company.doc %}
-                <a href="{{ company.doc }}"><i class="external url link large icon"></i></a>
-                {% endif %}
-            </td>
+                                    <td class="positive icon">
+                                        {% if company.doc %}
+                                        <a href="{{ company.doc }}"><i class="external url link large icon"></i></a>
+                                        {% endif %}
+                                    </td>
 
-        </tr>
-        {% else %}
-        <td class="main negative">
-            {% if company.img %}
-            <img src="/img/{{ section.id }}/{{ company.img }}" class="icon" alt="{{ company.name }}">
-            {% endif %}
-            <a href="{{ company.url }}">{{ company.name }}</a>
+                                    <td class="positive icon">
+                                        {% if company.eeo-1 %}
+                                        <i class="checkmark large icon"></i>
+                                        {% endif %}
+                                    </td>
 
-        </td>
-        {% if company.twitter %}
-        <td class="twitter main negative" colspan="6">
-        {% else %}
-        <td class="negative icon"><i class="remove large icon"></td>
-        <td class="negative icon"><i class="remove large icon"></td>
-        {% endif %}
-        {% endif %}
-        {% endif %}
-        {% endfor %}
-        {% endfor %}
-        </tbody>
-    </table>
+                                    <td class="positive icon">
+                                        {% if company.women-in-software-eng %}
+                                        <i class="checkmark large icon"></i>
+                                        {% endif %}
+                                    </td>
+                                </tr>
+                                    {% else %}
+                                        <td class="main negative">
+                                        {% if company.img %}
+                                            <img src="/img/{{ section.id }}/{{ company.img }}" class="icon" alt="{{ company.name }}">
+                                            {% endif %}
+                                            <a href="{{ company.url }}">{{ company.name }}</a>
+
+                                        </td>
+                                        {% if company.twitter %}
+                                            <td class="twitter main negative" colspan="6">
+                                            {% if company.status %}
+                                                <a class="ui twitter mini button" href="https://twitter.com/share?url={{site.url|cgi_escape}}&text={{page.tweet_progress|replace:'TWITTERHANDLE',company.twitter|cgi_escape}}&hashtags={{page.hash|cgi_escape}}" target="_blank"><i class="twitter icon"></i> {{page.link_progress}}</a>
+                                            {% else %}
+                                                <a class="ui twitter mini button" href="https://twitter.com/share?url={{site.url|cgi_escape}}&text={{page.tweet|replace:'TWITTERHANDLE',company.twitter|cgi_escape}}&hashtags={{page.hash}}" target="_blank"><i class="twitter icon"></i> {{page.link}}</a>
+                                            </td>
+                                            {% endif %}
+                                        {% else %}
+                                            <td class="negative icon"><i class="remove large icon"></td>
+                                            <td class="negative icon"><i class="remove large icon"></td>
+                                            <td class="negative icon"><i class="remove large icon"></td>
+                                            <td class="negative icon"><i class="remove large icon"></td>
+                                        {% endif %}
+                                    {% endif %}
+                                {% endif %}
+                            {% endfor %}
+                        {% endfor %}
+                    </tbody>
+                </table>
 
             {% unless forloop.last %}
                 <div class="ui divider"></div>

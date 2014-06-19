@@ -13,7 +13,7 @@ body {
 }
 
 p {
-    margin: 1em 0;
+    margin: 1.2em 0;
 }
 
 .sidenav {
@@ -24,7 +24,7 @@ p {
     max-width: 840px;
     width: 100%;
     margin: 0 auto;
-    padding-top: 40px;
+    padding-top: 5px;
 }
 
 .ui.menu.main > .menu {
@@ -127,4 +127,12 @@ td img.icon {
   .ui.menu.mobile {
       display: block;
   }
+}
+.main-title{
+  padding: 12px 0px;
+  font-size: 42px;
+}
+
+.submit-new-company{
+  padding-top: 10px !important;
 }

@@ -93,10 +93,10 @@ companies:
     url: https://www.facebook.com/
     twitter: Facebook
     img: facebook.png
-    diversitydata: No
+    diversitydata: Yes
     eeo-1: No
     women-in-software-eng: No
-    documentation: <link to company's diversity data>
+    documentation: http://newsroom.fb.com/news/2014/06/building-a-more-diverse-facebook/
     status: No
 
   - name: Groupon

@@ -129,6 +129,16 @@ companies:
     date-updated: 2011
     status: Yes
 
+  - name: Salesforce
+    url: http://www.salesforce.com/
+    twitter: Salesforce
+    img: salesforce.jpeg
+    diversitydata: Yes
+    eeo-1: Yes
+    documentation: http://www.salesforce.com/company/careers/diversity-numbers.jsp
+    date-updated: 2014
+    status: No
+
   - name: IBM
     url: https://www.ibm.com/
     twitter: IBM

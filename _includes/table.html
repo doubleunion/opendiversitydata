@@ -1,0 +1,88 @@
+            <div id="{{ section.id }}" class="section">
+                <table class="ui table celled segment">
+                    <thead>
+                        <tr>
+                            <th class="nine wide"><h2>{{ section.title }}</h2></th>
+                            <th>Data</th>
+                            <th><a href="http://www.eeoc.gov/employers/eeo1survey/" title="This will be checked if the data provided includes the company's full EEO-1 form or equivalent data">EEO-1</a></th>
+                            <th>Year Updated</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% assign section_file = site.data[section.id] %}
+
+<!-- Ignore your urge to indent, this must be left aligned. See commit 425e2529f33dc85fe4778d22671edfb274f9eac4. -->
+{% capture company_names %}
+{% for company in section_file.companies %}
+{{ company.name | downcase }}
+{% unless forloop.last %},{% endunless %}
+{% endfor %}
+{% endcapture %}
+
+                        {% assign lowercase_names = company_names | split:',' | sort %}
+
+                        {% for item in (0..lowercase_names.size) %}
+                            {% capture lowercase_name %}{{ lowercase_names[item] | strip | strip_newlines }}{% endcapture %}
+                            {% for company in section_file.companies %}
+                                {% assign current_name = company.name | downcase %}
+                                {% if lowercase_name == current_name %}
+                                <tr>
+                                    {% if company.diversitydata %}
+                                    <td class="main positive">
+                                    {% if company.img %}
+                                        <img src="/img/{{ section.id }}/{{ company.img }}" class="icon" alt="{{ company.name }}">
+                                    {% endif %}
+                                        <a href="{{ company.url }}">{{ company.name }}</a>
+                                    </td>
+
+                                    <td class="positive icon">
+                                        {% if company.documentation %}
+                                        <a href="{{ company.documentation }}"><i class="external url link large icon"></i></a>
+                                        {% endif %}
+                                    </td>
+
+                                    <td class="positive icon">
+                                        {% if company.eeo-1 %}
+                                        <i class="checkmark large icon"></i>
+                                        {% endif %}
+                                    </td>
+
+                                    <td class="positive icon">
+                                        {% if company.date-updated %}
+                                        <a>{{ company.date-updated }}</a>
+                                        {% endif %}
+                                    </td>
+                                </tr>
+                                    {% else %}
+                                        <td class="main negative">
+                                        {% if company.img %}
+                                            <img src="/img/{{ section.id }}/{{ company.img }}" class="icon" alt="{{ company.name }}">
+                                            {% endif %}
+                                            <a href="{{ company.url }}">{{ company.name }}</a>
+
+                                        </td>
+                                        {% if company.twitter %}
+                                            <td class="twitter main negative" colspan="6">
+                                            {% if company.status %}
+                                                <a class="ui twitter mini button" href="https://twitter.com/share?url={{site.url|cgi_escape}}&text={{page.tweet_progress|replace:'TWITTERHANDLE',company.twitter|cgi_escape}}&hashtags={{page.hash|cgi_escape}}" target="_blank"><i class="twitter icon"></i> {{page.link_progress}}</a>
+                                            {% else %}
+                                                <a class="ui twitter mini button" href="https://twitter.com/share?url={{site.url|cgi_escape}}&text={{page.tweet|replace:'TWITTERHANDLE',company.twitter|cgi_escape}}&hashtags={{page.hash|cgi_escape}}" target="_blank"><i class="twitter icon"></i> {{page.link}}</a>
+                                            </td>
+                                            {% endif %}
+                                        {% else %}
+                                            <td class="negative icon"><i class="remove large icon"></td>
+                                            <td class="negative icon"><i class="remove large icon"></td>
+                                            <td class="negative icon"><i class="remove large icon"></td>
+                                            <td class="negative icon"><i class="remove large icon"></td>
+                                        {% endif %}
+                                    {% endif %}
+                                {% endif %}
+                            {% endfor %}
+                        {% endfor %}
+                    </tbody>
+                </table>
+
+            {% unless forloop.last %}
+                <div class="ui divider"></div>
+            {% endunless %}
+            </div><!-- Section -->

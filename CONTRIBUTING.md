@@ -29,9 +29,9 @@ this example:
           url: https://www.company.com/
           twitter: CompanyTwitter
           img: company.png
-		  data: Yes
+          data: Yes
           eeo-1: Yes
-		  women-in-software-eng: Yes
+          date-updated: 201X
           documentation: <link to company's diversity data>
 ```
 

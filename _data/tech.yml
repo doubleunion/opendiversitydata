@@ -34,7 +34,7 @@ companies:
     twitter: Yahoo
     img: yahoo.png
     diversitydata: Yes
-    eeo-1: No
+    eeo-1: Yes
     women-in-software-eng: No
     documentation: http://yahoo.tumblr.com/post/89085398949/workforce-diversity-at-yahoo
     status: no

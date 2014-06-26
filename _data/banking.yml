@@ -1,9 +1,9 @@
 companies:
-  - name: Add me!
+  - name: Add Me!
     url: https://github.com/doubleunion/opendiversitydata
     twitter: 
-    img: apple.png
-    diversitydata: No
+    img: 
+    date-updated:
     eeo-1: No
     documentation: <link to company's diversity data>
     status: no

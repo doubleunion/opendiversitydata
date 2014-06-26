@@ -17,7 +17,7 @@ companies:
     eeo-1: Yes
     documentation: http://blog.linkedin.com/2014/06/12/linkedins-workforce-diversity/
     date-updated: 2014
-    status: no
+    status: Yes
 
   - name: Google
     url: https://www.google.com/
@@ -27,7 +27,7 @@ companies:
     eeo-1: Yes
     documentation: http://www.google.com/diversity/at-google.html
     date-updated: 2014
-    status: no
+    status: Yes
 
   - name: Yahoo
     url: https://www.yahoo.com/
@@ -37,7 +37,7 @@ companies:
     eeo-1: Yes
     documentation: http://yahoo.tumblr.com/post/89085398949/workforce-diversity-at-yahoo
     date-updated: 2014
-    status: no
+    status: Yes
 
   - name: Amazon
     url: https://www.amazon.com/
@@ -55,9 +55,9 @@ companies:
     img: cisco.jpeg
     diversitydata: Yes
     eeo-1: Yes
-    documentation: http://money.cnn.com/interactive/technology/tech-diversity-data/
-    date-updated: 2010
-    status: No
+    documentation: http://money.cnn.com/technology/storysupplement/diversity-data/ingram-micro-2010-EEO-1.html
+    date-updated: 2011
+    status: Yes
 
   - name: Dell
     url: https://www.dell.com/
@@ -65,9 +65,9 @@ companies:
     img: dell.jpeg
     diversitydata: Yes
     eeo-1: Yes
-    documentation: http://money.cnn.com/interactive/technology/tech-diversity-data/
-    date-updated: 2010
-    status: No
+    documentation: http://money.cnn.com/technology/storysupplement/diversity-data/dell-2010-EEO-1.html
+    date-updated: 2011
+    status: Yes
 
   - name: Hulu
     url: https://www.hulu.com/
@@ -86,8 +86,8 @@ companies:
     diversitydata: No
     eeo-1: No
     documentation: http://money.cnn.com/interactive/technology/tech-diversity-data/
-    date-updated: 2010
-    status: No
+    date-updated: 2011
+    status: Yes
 
   - name: Facebook
     url: https://www.facebook.com/
@@ -126,8 +126,8 @@ companies:
     diversitydata: Yes
     eeo-1: Yes
     documentation: http://money.cnn.com/interactive/technology/tech-diversity-data/
-    date-updated: 2010
-    status: No
+    date-updated: 2011
+    status: Yes
 
   - name: IBM
     url: https://www.ibm.com/

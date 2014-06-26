@@ -145,9 +145,9 @@ companies:
     img: intel.jpeg
     diversitydata: Yes
     eeo-1: Yes
-    documentation: http://money.cnn.com/interactive/technology/tech-diversity-data/
-    date-updated: 2010
-    status: No
+    documentation: http://www.intel.com/content/www/us/en/corporate-responsibility/corporate-responsibility-report-overview.html
+    date-updated: 2014
+    status: Yes
 
   - name: Living Social
     url: https://www.livingsocial.com/

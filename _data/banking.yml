@@ -3,9 +3,10 @@ companies:
     url: https://github.com/doubleunion/opendiversitydata
     twitter: 
     img: 
-    date-updated:
+    diversitydata: No
     eeo-1: No
     documentation: <link to company's diversity data>
-    status: no
+    date-updated:
+    status: No
 
 

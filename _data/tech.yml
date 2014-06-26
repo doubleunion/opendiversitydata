@@ -5,7 +5,6 @@ companies:
     img: apple.png
     diversitydata: No
     eeo-1: No
-    women-in-software-eng: No
     documentation: <link to company's diversity data>
     status: No
 
@@ -15,7 +14,6 @@ companies:
     img: linkedin.jpeg
     diversitydata: Yes
     eeo-1: Yes
-    women-in-software-eng: No
     documentation: http://blog.linkedin.com/2014/06/12/linkedins-workforce-diversity/
     status: no
 
@@ -25,7 +23,6 @@ companies:
     img: google.png
     diversitydata: Yes
     eeo-1: Yes
-    women-in-software-eng: No
     documentation: http://www.google.com/diversity/at-google.html
     status: no
 
@@ -35,7 +32,6 @@ companies:
     img: yahoo.png
     diversitydata: Yes
     eeo-1: Yes
-    women-in-software-eng: No
     documentation: http://yahoo.tumblr.com/post/89085398949/workforce-diversity-at-yahoo
     status: no
 
@@ -45,7 +41,6 @@ companies:
     img: amazon.jpeg
     diversitydata: No
     eeo-1: No
-    women-in-software-eng: No
     documentation: <link to company's diversity data>
     status: No
 
@@ -55,7 +50,6 @@ companies:
     img: cisco.jpeg
     diversitydata: Yes
     eeo-1: Yes
-    women-in-software-eng: No
     documentation: http://money.cnn.com/interactive/technology/tech-diversity-data/
     status: No
 
@@ -65,7 +59,6 @@ companies:
     img: dell.jpeg
     diversitydata: Yes
     eeo-1: Yes
-    women-in-software-eng: No
     documentation: http://money.cnn.com/interactive/technology/tech-diversity-data/
     status: No
 
@@ -75,7 +68,6 @@ companies:
     img: hulu.png
     diversitydata: No
     eeo-1: No
-    women-in-software-eng: No
     documentation: <link to company's diversity data>
     status: No
 
@@ -85,7 +77,6 @@ companies:
     img: ebay.jpeg
     diversitydata: No
     eeo-1: No
-    women-in-software-eng: No
     documentation: http://money.cnn.com/interactive/technology/tech-diversity-data/
     status: No
 
@@ -95,7 +86,6 @@ companies:
     img: facebook.png
     diversitydata: Yes
     eeo-1: No
-    women-in-software-eng: No
     documentation: http://newsroom.fb.com/news/2014/06/building-a-more-diverse-facebook/
     status: No
 
@@ -105,7 +95,6 @@ companies:
     img: groupon.png
     diversitydata: No
     eeo-1: No
-    women-in-software-eng: No
     documentation: <link to company's diversity data>
     status: No
 
@@ -115,7 +104,6 @@ companies:
     img: HP.png
     diversitydata: No
     eeo-1: No
-    women-in-software-eng: No
     documentation: <link to company's diversity data>
     status: No
 
@@ -125,7 +113,6 @@ companies:
     img: ingrammicro.jpeg
     diversitydata: Yes
     eeo-1: Yes
-    women-in-software-eng: No
     documentation: http://money.cnn.com/interactive/technology/tech-diversity-data/
     status: No
 
@@ -135,7 +122,6 @@ companies:
     img: ibm.jpeg
     diversitydata: No
     eeo-1: No
-    women-in-software-eng: No
     documentation: <link to company's diversity data>
     status: No
 
@@ -145,7 +131,6 @@ companies:
     img: intel.jpeg
     diversitydata: Yes
     eeo-1: Yes
-    women-in-software-eng: No
     documentation: http://money.cnn.com/interactive/technology/tech-diversity-data/
     status: No
 
@@ -155,7 +140,6 @@ companies:
     img: livingsocial.jpeg
     diversitydata: No
     eeo-1: No
-    women-in-software-eng: No
     documentation: <link to company's diversity data>
     status: No
 
@@ -165,7 +149,6 @@ companies:
     img: microsoft.jpeg
     diversitydata: No
     eeo-1: No
-    women-in-software-eng: No
     documentation: <link to company's diversity data>
     status: No
 
@@ -175,7 +158,6 @@ companies:
     img: netflix.jpeg
     diversitydata: No
     eeo-1: No
-    women-in-software-eng: No
     documentation: <link to company's diversity data>
     status: No
 
@@ -185,7 +167,6 @@ companies:
     img: twitter.jpeg
     diversitydata: No
     eeo-1: No
-    women-in-software-eng: No
     documentation: <link to company's diversity data>
     status: No
 
@@ -195,7 +176,6 @@ companies:
     img: yelp.jpeg
     diversitydata: No
     eeo-1: No
-    women-in-software-eng: No
     documentation: <link to company's diversity data>
     status: No
 
@@ -205,7 +185,6 @@ companies:
     img: zynga.jpeg
     diversitydata: No
     eeo-1: No
-    women-in-software-eng: No
     documentation: <link to company's diversity data>
     status: No
 

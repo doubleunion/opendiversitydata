@@ -31,9 +31,9 @@ hash: DiversityData
                     <thead>
                         <tr>
                             <th class="nine wide"><h2>{{ section.title }}</h2></th>
-                            <th>Docs</th>
+                            <th>Data</th>
                             <th><a href="http://www.eeoc.gov/employers/eeo1survey/" title="This will be checked if the data provided includes the company's full EEO-1 form or equivalent data">EEO-1</a></th>
-                            <th>Women in Engineering</th>
+                            <th>Year Updated</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -76,8 +76,8 @@ hash: DiversityData
                                     </td>
 
                                     <td class="positive icon">
-                                        {% if company.women-in-software-eng %}
-                                        <i class="checkmark large icon"></i>
+                                        {% if company.date-updated %}
+                                        <a>{{ company.date-updated }}</a>
                                         {% endif %}
                                     </td>
                                 </tr>

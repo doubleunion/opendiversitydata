@@ -6,6 +6,7 @@ companies:
     diversitydata: No
     eeo-1: No
     documentation: <link to company's diversity data>
+    date-updated: YYYY
     status: No
 
   - name: LinkedIn
@@ -15,6 +16,7 @@ companies:
     diversitydata: Yes
     eeo-1: Yes
     documentation: http://blog.linkedin.com/2014/06/12/linkedins-workforce-diversity/
+    date-updated: 2014
     status: no
 
   - name: Google
@@ -24,6 +26,7 @@ companies:
     diversitydata: Yes
     eeo-1: Yes
     documentation: http://www.google.com/diversity/at-google.html
+    date-updated: 2014
     status: no
 
   - name: Yahoo
@@ -33,6 +36,7 @@ companies:
     diversitydata: Yes
     eeo-1: Yes
     documentation: http://yahoo.tumblr.com/post/89085398949/workforce-diversity-at-yahoo
+    date-updated: 2014
     status: no
 
   - name: Amazon
@@ -42,6 +46,7 @@ companies:
     diversitydata: No
     eeo-1: No
     documentation: <link to company's diversity data>
+    date-updated: YYYY
     status: No
 
   - name: Cisco
@@ -51,6 +56,7 @@ companies:
     diversitydata: Yes
     eeo-1: Yes
     documentation: http://money.cnn.com/interactive/technology/tech-diversity-data/
+    date-updated: 2010
     status: No
 
   - name: Dell
@@ -60,6 +66,7 @@ companies:
     diversitydata: Yes
     eeo-1: Yes
     documentation: http://money.cnn.com/interactive/technology/tech-diversity-data/
+    date-updated: 2010
     status: No
 
   - name: Hulu
@@ -69,6 +76,7 @@ companies:
     diversitydata: No
     eeo-1: No
     documentation: <link to company's diversity data>
+    date-updated: YYYY
     status: No
 
   - name: eBay
@@ -78,6 +86,7 @@ companies:
     diversitydata: No
     eeo-1: No
     documentation: http://money.cnn.com/interactive/technology/tech-diversity-data/
+    date-updated: 2010
     status: No
 
   - name: Facebook
@@ -87,6 +96,7 @@ companies:
     diversitydata: Yes
     eeo-1: No
     documentation: http://newsroom.fb.com/news/2014/06/building-a-more-diverse-facebook/
+    date-updated: 2014
     status: No
 
   - name: Groupon
@@ -96,6 +106,7 @@ companies:
     diversitydata: No
     eeo-1: No
     documentation: <link to company's diversity data>
+    date-updated: YYYY
     status: No
 
   - name: Hewlett-Packard
@@ -105,6 +116,7 @@ companies:
     diversitydata: No
     eeo-1: No
     documentation: <link to company's diversity data>
+    date-updated: YYYY
     status: No
 
   - name: Ingram Micro
@@ -114,6 +126,7 @@ companies:
     diversitydata: Yes
     eeo-1: Yes
     documentation: http://money.cnn.com/interactive/technology/tech-diversity-data/
+    date-updated: 2010
     status: No
 
   - name: IBM
@@ -123,6 +136,7 @@ companies:
     diversitydata: No
     eeo-1: No
     documentation: <link to company's diversity data>
+    date-updated: YYYY
     status: No
 
   - name: Intel
@@ -132,6 +146,7 @@ companies:
     diversitydata: Yes
     eeo-1: Yes
     documentation: http://money.cnn.com/interactive/technology/tech-diversity-data/
+    date-updated: 2010
     status: No
 
   - name: Living Social
@@ -141,6 +156,7 @@ companies:
     diversitydata: No
     eeo-1: No
     documentation: <link to company's diversity data>
+    date-updated: YYYY
     status: No
 
   - name: Microsoft
@@ -150,6 +166,7 @@ companies:
     diversitydata: No
     eeo-1: No
     documentation: <link to company's diversity data>
+    date-updated: YYYY
     status: No
 
   - name: Netflix
@@ -159,6 +176,7 @@ companies:
     diversitydata: No
     eeo-1: No
     documentation: <link to company's diversity data>
+    date-updated: YYYY
     status: No
 
   - name: Twitter
@@ -168,6 +186,7 @@ companies:
     diversitydata: No
     eeo-1: No
     documentation: <link to company's diversity data>
+    date-updated: YYYY
     status: No
 
   - name: Yelp
@@ -177,6 +196,7 @@ companies:
     diversitydata: No
     eeo-1: No
     documentation: <link to company's diversity data>
+    date-updated: YYYY
     status: No
 
   - name: Zynga
@@ -186,5 +206,6 @@ companies:
     diversitydata: No
     eeo-1: No
     documentation: <link to company's diversity data>
+    date-updated: YYYY
     status: No
 

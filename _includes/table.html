@@ -2,10 +2,11 @@
                 <table class="ui table celled segment">
                     <thead>
                         <tr>
-                            <th class="nine wide"><h2>{{ section.title }}</h2></th>
+                            <th class="six wide"><h2>{{ section.title }}</h2></th>
                             <th>Data</th>
                             <th><a href="http://www.eeoc.gov/employers/eeo1survey/" title="This will be checked if the data provided includes the company's full EEO-1 form or equivalent data">EEO-1</a></th>
                             <th>Year Updated</th>
+                            <th class="three wide">Tweet</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -33,6 +34,7 @@
                                         <img src="/img/{{ section.id }}/{{ company.img }}" class="icon" alt="{{ company.name }}">
                                     {% endif %}
                                         <a href="{{ company.url }}">{{ company.name }}</a>
+
                                     </td>
 
                                     <td class="positive icon">
@@ -48,10 +50,18 @@
                                     </td>
 
                                     <td class="positive icon">
-                                        {% if company.date-updated %}
                                         <a>{{ company.date-updated }}</a>
-                                        {% endif %}
                                     </td>
+
+                                    {% if company.twitter %}
+                                            <td class="twitter main positive" colspan="6">
+                                            {% if company.date-updated < 2014 %}
+                                                <a class="ui twitter mini button" href="https://twitter.com/share?url={{site.url|cgi_escape}}&text={{page.tweet_update|replace:'TWITTERHANDLE',company.twitter|replace:'YEAR',company.date-updated|cgi_escape}}&hashtags={{page.hash|cgi_escape}}" target="_blank"><i class="twitter icon"></i> {{page.link_update}}</a>
+                                            {% else %}
+                                                <a class="ui twitter mini button" href="https://twitter.com/share?url={{site.url|cgi_escape}}&text={{page.tweet_success|replace:'TWITTERHANDLE',company.twitter|cgi_escape}}&hashtags={{page.hash|cgi_escape}}" target="_blank"><i class="twitter icon"></i> {{page.link_success}}</a>
+                                            </td>
+                                            {% endif %}
+                                    {% endif %}
                                 </tr>
                                     {% else %}
                                         <td class="main negative">

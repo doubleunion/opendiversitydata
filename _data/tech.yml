@@ -173,11 +173,11 @@ companies:
     url: http://www.microsoft.com/
     twitter: Microsoft
     img: microsoft.jpeg
-    diversitydata: No
+    diversitydata: Yes
     eeo-1: No
-    documentation: <link to company's diversity data>
-    date-updated: YYYY
-    status: No
+    documentation: http://www.microsoft.com/en-us/news/inside_ms.aspx#EmploymentInfo
+    date-updated: 2014
+    status: Yes
 
   - name: Netflix
     url: https://www.netflix.com/

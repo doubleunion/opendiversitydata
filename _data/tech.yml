@@ -55,7 +55,7 @@ companies:
     img: cisco.jpeg
     diversitydata: Yes
     eeo-1: Yes
-    documentation: http://money.cnn.com/technology/storysupplement/diversity-data/ingram-micro-2010-EEO-1.html
+    documentation: http://money.cnn.com/interactive/technology/tech-diversity-data/
     date-updated: 2011
     status: Yes
 
@@ -125,7 +125,7 @@ companies:
     img: ingrammicro.jpeg
     diversitydata: Yes
     eeo-1: Yes
-    documentation: http://money.cnn.com/interactive/technology/tech-diversity-data/
+    documentation: http://money.cnn.com/technology/storysupplement/diversity-data/ingram-micro-2010-EEO-1.html
     date-updated: 2011
     status: Yes
 

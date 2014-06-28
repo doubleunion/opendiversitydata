@@ -136,3 +136,15 @@ td img.icon {
 .submit-new-company{
   padding-top: 10px !important;
 }
+
+@media (max-width: 360px) {
+  .ui.grid {
+    font-size: 0.7em !important;
+    margin: 0 !important;
+  }
+
+  .ui.grid>.column,
+  .ui.grid>.row>.column {
+    font-size: 1em !important;
+  }
+}

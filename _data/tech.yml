@@ -59,6 +59,16 @@ companies:
     date-updated: 2011
     status: Yes
 
+  - name: Cloudera
+    url: http://www.cloudera.com
+    twitter: cloudera
+    img: cloudera.png
+    diversitydata: No
+    eeo-1: No
+    documentation: <link to company's diversity data>
+    data-updated: YYYY
+    status: No
+
   - name: Dell
     url: https://www.dell.com/
     twitter: Dell

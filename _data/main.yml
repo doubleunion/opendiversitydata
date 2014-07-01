@@ -7,6 +7,10 @@ sections:
     title: Banking / Finance
     icon: dollar
 
+  - id: defense
+    title: Defense
+    icon: globe
+
   - id: other
     title: Other
     icon: globe

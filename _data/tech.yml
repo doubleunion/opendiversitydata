@@ -199,6 +199,16 @@ companies:
     date-updated: YYYY
     status: No
 
+  - name: Redhat
+    url: https://www.redhat.com/
+    twitter: RedHatSoftware
+    img: redhat.jpeg
+    diversitydata: No
+    eeo-1: No
+    documentation: <link to company's diversity data>
+    date-updated: YYYY
+    status: No
+
   - name: Twitter
     url: http://www.twitter.com/
     twitter: Twitter

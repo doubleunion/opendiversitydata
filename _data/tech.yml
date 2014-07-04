@@ -49,7 +49,7 @@ companies:
     date-updated: YYYY
     status: No
 
-- name: Canonical
+  - name: Canonical
     url: https://www.canonical.com/
     twitter: Canonical
     img: canonical.png

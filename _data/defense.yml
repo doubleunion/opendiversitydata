@@ -1,0 +1,20 @@
+companies:
+  - name: Raytheon
+    url: https://raytheon.com
+    twitter: Raytheon
+    img: raytheon.png
+    diversitydata: No
+    eeo-1: No
+    documentation: <link to company's diversity data>
+    date-updated:
+    status: No
+
+  - name: SAIC
+    url: https://saic.com
+    twitter: SAICinc
+    img: saic.png
+    diversitydata: No
+    eeo-1: No
+    documentation: <link to company's diversity data>
+    date-updated:
+    status: No

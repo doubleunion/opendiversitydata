@@ -222,7 +222,7 @@ companies:
   - name: Redhat
     url: https://www.redhat.com/
     twitter: RedHatSoftware
-    img: redhat.jpeg
+    img: redhat.png
     diversitydata: No
     eeo-1: No
     documentation: <link to company's diversity data>

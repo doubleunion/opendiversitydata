@@ -225,9 +225,9 @@ companies:
     img: oracle.jpg
     diversitydata: Yes
     eeo-1: No
-    documentation: http://www.oracle.com/us/corporate/citizenship/workforce/div$
+    documentation: http://www.oracle.com/us/corporate/citizenship/workforce/diversity-inclusion/index.html
     date-updated: 2012
-    status: Yes
+    status: No
 
   - name: Redhat
     url: https://www.redhat.com/

@@ -1,0 +1,19 @@
+{
+  "meta": { "company": "Dell" },
+  "section_a": { "reporting_type": "Consolidated Report" },
+  "section_b": {
+    "parent_company": "DELL INC - (DELL USA) - ROUND ROCK",
+    "address": {
+      "street_address": "401 DELL WAY",
+      "city": "ROUND ROCK",
+      "state": "TX",
+      "zip_code": "78682"
+    },
+    "previous_year_report": true
+  },
+  "section_c": {
+    "at_least_100": true,
+    "affiliated": false,
+    "DUNS": true
+  }
+}

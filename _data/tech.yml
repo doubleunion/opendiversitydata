@@ -65,8 +65,8 @@ companies:
     img: cisco.jpeg
     diversitydata: Yes
     eeo-1: Yes
-    documentation: http://money.cnn.com/interactive/technology/tech-diversity-data/
-    date-updated: 2011
+    documentation: http://www.cisco.com/assets/csr/pdf/CSR_Report_2013.pdf
+    date-updated: 2014
     status: Yes
 
   - name: Cloudera

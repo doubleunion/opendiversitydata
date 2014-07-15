@@ -53,11 +53,11 @@ companies:
     url: https://www.canonical.com/
     twitter: Canonical
     img: canonical.png
-    diversitydata: No
+    diversitydata: Yes
     eeo-1: No
-    documentation: <link to company's diversity data>
-    date-updated: YYYY
-    status: No
+    documentation: http://blog.canonical.com/2014/07/14/sometimes-the-best-man-for-the-job-isnt/
+    date-updated: 2014
+    status: Yes
 
   - name: Cisco
     url: https://www.cisco.com/

@@ -9,9 +9,14 @@
       "properties": { 
         "company": {
           "type": "string"
+        },
+        "year": {
+          "type": "integer",
+          "minimum": 1965,
+          "maximum": 2014
         }
       },
-      "required": ["company"]
+      "required": ["company", "year"]
     },
     "section_a": {
       "type": "object",

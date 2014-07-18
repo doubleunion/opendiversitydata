@@ -1,6 +1,7 @@
 {
   "meta": {
-    "company": "Dell"
+    "company": "Dell",
+    "year": 2010
   },
   "section_a": { "reporting_type": "Consolidated Report" },
   "section_b": {

@@ -62,6 +62,61 @@
         "DUNS": { "type": "boolean" }
       },
       "required": ["at_least_100", "affiliated", "DUNS"]
+    },
+    "section_d": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "job_category": {
+            "type": "string",
+            "enum": [
+              "Executive/Senior Level Officials and Managers",
+              "First/Mid Level Officials and Managers",
+              "Professionals",
+              "Technicians",
+              "Sales Workers",
+              "Administrative Support Workers",
+              "Craft Workers",
+              "Operatives",
+              "Laborers and Helpers",
+              "Service Workers"
+            ]
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "race": {
+                  "type": "string",
+                  "enum": [
+                    "Hispanic or Latino",
+                    "White",
+                    "Black or African American",
+                    "Native Hawaiian or Other Pacific Islander",
+                    "Asian",
+                    "American Indian or Alaska Native",
+                    "Two or More Races"
+                  ]
+                },
+                "men": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "women": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": ["race", "men", "women"]
+            },
+            "minItems": 7
+          }
+        },
+        "required": ["job_category", "data"]
+      },
+      "minItems": 10
     }
-  }
+  },
+  "required": ["meta", "section_d"]
 }

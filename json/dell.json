@@ -1,5 +1,7 @@
 {
-  "meta": { "company": "Dell" },
+  "meta": {
+    "company": "Dell"
+  },
   "section_a": { "reporting_type": "Consolidated Report" },
   "section_b": {
     "parent_company": "DELL INC - (DELL USA) - ROUND ROCK",
@@ -15,5 +17,407 @@
     "at_least_100": true,
     "affiliated": false,
     "DUNS": true
-  }
+  },
+  "section_d": [
+    {
+      "job_category": "Executive/Senior Level Officials and Managers",
+      "data": [
+        {
+          "race": "Hispanic or Latino",
+          "men": 0,
+          "women": 0
+        },
+        {
+          "race": "White",
+          "men": 98,
+          "women": 28
+        },
+        {
+          "race": "Black or African American",
+          "men": 1,
+          "women": 0
+        },
+        {
+          "race": "Native Hawaiian or Other Pacific Islander",
+          "men": 0,
+          "women": 0
+        },
+        {
+          "race": "Asian",
+          "men": 8,
+          "women": 2
+        },
+        {
+          "race": "American Indian or Alaska Native",
+          "men": 0,
+          "women": 0
+        },
+        {
+          "race": "Two or More Races",
+          "men": 0,
+          "women": 0
+        }
+      ]
+    },
+    {
+      "job_category": "First/Mid Level Officials and Managers",
+      "data": [
+        {
+          "race": "Hispanic or Latino",
+          "men": 170,
+          "women": 90
+        },
+        {
+          "race": "White",
+          "men": 2604,
+          "women": 975
+        },
+        {
+          "race": "Black or African American",
+          "men": 132,
+          "women": 78
+        },
+        {
+          "race": "Native Hawaiian or Other Pacific Islander",
+          "men": 1,
+          "women": 1
+        },
+        {
+          "race": "Asian",
+          "men": 244,
+          "women": 78
+        },
+        {
+          "race": "American Indian or Alaska Native",
+          "men": 8,
+          "women": 6
+        },
+        {
+          "race": "Two or More Races",
+          "men": 16,
+          "women": 3
+        }
+      ]
+    },
+    {
+      "job_category": "Professionals",
+      "data": [
+        {
+          "race": "Hispanic or Latino",
+          "men": 904,
+          "women": 482
+        },
+        {
+          "race": "White",
+          "men": 8164,
+          "women": 3562
+        },
+        {
+          "race": "Black or African American",
+          "men": 683,
+          "women": 434
+        },
+        {
+          "race": "Native Hawaiian or Other Pacific Islander",
+          "men": 17,
+          "women": 7
+        },
+        {
+          "race": "Asian",
+          "men": 1884,
+          "women": 780
+        },
+        {
+          "race": "American Indian or Alaska Native",
+          "men": 51,
+          "women": 19
+        },
+        {
+          "race": "Two or More Races",
+          "men": 98,
+          "women": 41
+        }
+      ]
+    },
+    {
+      "job_category": "Technicians",
+      "data": [
+        {
+          "race": "Hispanic or Latino",
+          "men": 311,
+          "women": 57
+        },
+        {
+          "race": "White",
+          "men": 2186,
+          "women": 303
+        },
+        {
+          "race": "Black or African American",
+          "men": 341,
+          "women": 104
+        },
+        {
+          "race": "Native Hawaiian or Other Pacific Islander",
+          "men": 7,
+          "women": 0
+        },
+        {
+          "race": "Asian",
+          "men": 201,
+          "women": 29
+        },
+        {
+          "race": "American Indian or Alaska Native",
+          "men": 33,
+          "women": 10
+        },
+        {
+          "race": "Two or More Races",
+          "men": 49,
+          "women": 7
+        }
+      ]
+    },
+    {
+      "job_category": "Sales Workers",
+      "data": [
+        {
+          "race": "Hispanic or Latino",
+          "men": 287,
+          "women": 80
+        },
+        {
+          "race": "White",
+          "men": 3318,
+          "women": 964
+        },
+        {
+          "race": "Black or African American",
+          "men": 226,
+          "women": 71
+        },
+        {
+          "race": "Native Hawaiian or Other Pacific Islander",
+          "men": 6,
+          "women": 1
+        },
+        {
+          "race": "Asian",
+          "men": 145,
+          "women": 39
+        },
+        {
+          "race": "American Indian or Alaska Native",
+          "men": 24,
+          "women": 9
+        },
+        {
+          "race": "Two or More Races",
+          "men": 47,
+          "women": 17
+        }
+      ]
+    },
+    {
+      "job_category": "Administrative Support Workers",
+      "data": [
+        {
+          "race": "Hispanic or Latino",
+          "men": 232,
+          "women": 470
+        },
+        {
+          "race": "White",
+          "men": 720,
+          "women": 2203 
+        },
+        {
+          "race": "Black or African American",
+          "men": 192,
+          "women": 609
+        },
+        {
+          "race": "Native Hawaiian or Other Pacific Islander",
+          "men": 2,
+          "women": 17
+        },
+        {
+          "race": "Asian",
+          "men": 81,
+          "women": 180
+        },
+        {
+          "race": "American Indian or Alaska Native",
+          "men": 11,
+          "women": 36
+        },
+        {
+          "race": "Two or More Races",
+          "men": 9,
+          "women": 31
+        }
+      ]
+    },
+    {
+      "job_category": "Craft Workers",
+      "data": [
+        {
+          "race": "Hispanic or Latino",
+          "men": 1,
+          "women": 0
+        },
+        {
+          "race": "White",
+          "men": 0,
+          "women": 0
+        },
+        {
+          "race": "Black or African American",
+          "men": 0,
+          "women": 1
+        },
+        {
+          "race": "Native Hawaiian or Other Pacific Islander",
+          "men": 0,
+          "women": 0
+        },
+        {
+          "race": "Asian",
+          "men": 0,
+          "women": 0
+        },
+        {
+          "race": "American Indian or Alaska Native",
+          "men": 0,
+          "women": 0
+        },
+        {
+          "race": "Two or More Races",
+          "men": 0,
+          "women": 0
+        }
+      ]
+    },
+    {
+      "job_category": "Operatives",
+      "data": [
+        {
+          "race": "Hispanic or Latino",
+          "men": 75,
+          "women": 40
+        },
+        {
+          "race": "White",
+          "men": 104,
+          "women": 67
+        },
+        {
+          "race": "Black or African American",
+          "men": 79,
+          "women": 88
+        },
+        {
+          "race": "Native Hawaiian or Other Pacific Islander",
+          "men": 0,
+          "women": 0
+        },
+        {
+          "race": "Asian",
+          "men": 28,
+          "women": 15
+        },
+        {
+          "race": "American Indian or Alaska Native",
+          "men": 1,
+          "women": 0
+        },
+        {
+          "race": "Two or More Races",
+          "men": 0,
+          "women": 0
+        }
+      ]
+    },
+    {
+      "job_category": "Laborers and Helpers",
+      "data": [
+        {
+          "race": "Hispanic or Latino",
+          "men": 0,
+          "women": 0
+        },
+        {
+          "race": "White",
+          "men": 0,
+          "women": 0
+        },
+        {
+          "race": "Black or African American",
+          "men": 0,
+          "women": 0
+        },
+        {
+          "race": "Native Hawaiian or Other Pacific Islander",
+          "men": 0,
+          "women": 0
+        },
+        {
+          "race": "Asian",
+          "men": 0,
+          "women": 0
+        },
+        {
+          "race": "American Indian or Alaska Native",
+          "men": 0,
+          "women": 0
+        },
+        {
+          "race": "Two or More Races",
+          "men": 0,
+          "women": 0
+        }
+      ]
+    },
+    {
+      "job_category": "Service Workers",
+      "data": [
+        {
+          "race": "Hispanic or Latino",
+          "men": 6,
+          "women": 9
+        },
+        {
+          "race": "White",
+          "men": 45,
+          "women": 65
+        },
+        {
+          "race": "Black or African American",
+          "men": 7,
+          "women": 15
+        },
+        {
+          "race": "Native Hawaiian or Other Pacific Islander",
+          "men": 0,
+          "women": 0
+        },
+        {
+          "race": "Asian",
+          "men": 2,
+          "women": 1
+        },
+        {
+          "race": "American Indian or Alaska Native",
+          "men": 0,
+          "women": 0
+        },
+        {
+          "race": "Two or More Races",
+          "men": 1,
+          "women": 0
+        }
+      ]
+    }
+  ]
 }

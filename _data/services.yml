@@ -1,0 +1,5 @@
+companies:
+  - name: KickStarter
+    twitter: kickstarter
+    url: http://kickstarter.com/
+    img: kickstarter.jpg

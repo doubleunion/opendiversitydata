@@ -3,6 +3,9 @@ sections:
     title: Technology
     icon: code
 
+  - id: services
+    title: Services
+
   - id: banking
     title: Banking / Finance
     icon: dollar

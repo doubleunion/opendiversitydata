@@ -243,11 +243,11 @@ companies:
     url: http://www.twitter.com/
     twitter: Twitter
     img: twitter.jpeg
-    diversitydata: No
+    diversitydata: Yes
     eeo-1: No
-    documentation: <link to company's diversity data>
-    date-updated: YYYY
-    status: No
+    documentation: https://blog.twitter.com/2014/building-a-twitter-we-can-be-proud-of
+    date-updated: 2014
+    status: Yes
 
   - name: Yelp
     url: https://www.yelp.com/

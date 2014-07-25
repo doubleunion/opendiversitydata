@@ -10,7 +10,7 @@ companies:
     status: No
 
   - name: LinkedIn
-    url: https://www.company.com/
+    url: https://www.linkedin.com/
     twitter: LinkedIn
     img: linkedin.jpeg
     diversitydata: Yes

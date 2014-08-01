@@ -108,11 +108,11 @@ companies:
     url: https://www.ebay.com/
     twitter: eBay
     img: ebay.jpeg
-    diversitydata: No
+    diversitydata: Yes
     eeo-1: No
-    documentation: http://money.cnn.com/interactive/technology/tech-diversity-data/
-    date-updated: 2011
-    status: No
+    documentation: http://blog.ebay.com/building-stronger-better-diverse-ebay/
+    date-updated: 2014
+    status: Yes
 
   - name: Facebook
     url: https://www.facebook.com/

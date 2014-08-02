@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "title": "opendiversitydata",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JSON schema for U.S. EEO-1 survey data",
   "type": "object",
   "properties": {
@@ -116,12 +116,16 @@
               },
               "required": ["race", "men", "women"]
             },
-            "minItems": 7
+            "minItems": 7,
+            "maxItems": 7,
+            "uniqueItems": true
           }
         },
         "required": ["job_category", "data"]
       },
-      "minItems": 10
+      "minItems": 10,
+      "maxItems": 10,
+      "uniqueItems": true
     }
   },
   "required": ["meta", "section_d"]

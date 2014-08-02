@@ -1,6 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "title": "opendiversitydata",
+  "version": "0.0.1",
   "description": "JSON schema for U.S. EEO-1 survey data",
   "type": "object",
   "properties": {

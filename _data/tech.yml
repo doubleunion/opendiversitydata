@@ -3,11 +3,11 @@ companies:
     url: https://www.apple.com/
     twitter: Apple
     img: apple.png
-    diversitydata: No
+    diversitydata: Yes
     eeo-1: No
-    documentation: <link to company's diversity data>
-    date-updated: YYYY
-    status: No
+    documentation: https://apple.com/diversity
+    date-updated: 2014
+    status: Yes
  
   - name: Atlassian
     url: https://www.atlassian.com/

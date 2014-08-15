@@ -258,11 +258,11 @@ companies:
     url: https://www.yelp.com/
     twitter: Yelp
     img: yelp.jpeg
-    diversitydata: No
-    eeo-1: No
-    documentation: <link to company's diversity data>
-    date-updated: YYYY
-    status: No
+    diversitydata: Yes
+    eeo-1: Yes
+    documentation: http://officialblog.yelp.com/2014/08/workforce-diversity-at-yelp.html
+    date-updated: 2014
+    status: Yes
 
   - name: Zynga
     url: https://www.zynga.com/

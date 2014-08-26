@@ -1,4 +1,4 @@
-Contributing to diversitydatapledge.org
+Contributing to [opendiversitydata](http://opendiversitydata.org/)
 =======================
 
 ## Contributing

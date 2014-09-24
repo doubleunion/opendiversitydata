@@ -263,6 +263,17 @@ companies:
     documentation: http://officialblog.yelp.com/2014/08/workforce-diversity-at-yelp.html
     date-updated: 2014
     status: Yes
+    
+    
+    name: SendGrid
+    url: https://www.sendgrid.com/
+    twitter: SendGrid
+    img: sendgrid.png
+    diversitydata: Yes
+    eeo-1: No
+    documentation: https://sendgrid.com/blog/diversity-sendgrid/
+    date-updated: 2014
+    status: No
 
   - name: Zynga
     url: https://www.zynga.com/

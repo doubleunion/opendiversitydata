@@ -264,8 +264,7 @@ companies:
     date-updated: 2014
     status: Yes
     
-    
-    name: SendGrid
+  - name: SendGrid
     url: https://www.sendgrid.com/
     twitter: SendGrid
     img: sendgrid.png
@@ -273,7 +272,7 @@ companies:
     eeo-1: No
     documentation: https://sendgrid.com/blog/diversity-sendgrid/
     date-updated: 2014
-    status: No
+    status: No 
 
   - name: Zynga
     url: https://www.zynga.com/

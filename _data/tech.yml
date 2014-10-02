@@ -243,6 +243,15 @@ companies:
     documentation: <link to company's diversity data>
     date-updated: YYYY
     status: No
+    
+    name: SendGrid
+    url: https://www.sendgrid.com/
+    twitter: SendGrid
+    img: sendgrid.png
+    data: Yes
+    eeo-1: No
+    date-updated: 2014
+    documentation: https://sendgrid.com/blog/diversity-sendgrid/
 
   - name: Twitter
     url: http://www.twitter.com/

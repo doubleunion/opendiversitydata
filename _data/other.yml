@@ -1,11 +1,10 @@
 companies:
-  - name: Add Me!
-    url: https://github.com/doubleunion/opendiversitydata
-    twitter: 
-    img: 
-    diversitydata: No 
+  - name: BuzzFeed
+    url: http://www.buzzfeed.com
+    twitter: BuzzFeed
+    img: buzzfeed.png
+    diversitydata: Yes
     eeo-1: No
-    documentation: <link to company's diversity data>
-    date-updated: 
+    documentation: http://www.buzzfeed.com/bensmith/what-were-doing-to-keep-building-a-diverse-editorial-operati#1pp5xgn
+    date-updated: 2014
     status: No
-

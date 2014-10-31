@@ -138,11 +138,11 @@ companies:
     url: https://www.groupon.com/
     twitter: Groupon
     img: groupon.png
-    diversitydata: No
-    eeo-1: No
-    documentation: <link to company's diversity data>
-    date-updated: YYYY
-    status: No
+    diversitydata: Yes
+    eeo-1: Yes
+    documentation: https://www.groupon.com/blog/cities/groupon-releases-diversity-data
+    date-updated: 2014
+    status: Yes
 
   - name: Hewlett-Packard
     url: https://www.hp.com/

@@ -48,11 +48,11 @@ companies:
     url: https://www.amazon.com/
     twitter: Amazon
     img: amazon.jpeg
-    diversitydata: No
+    diversitydata: Yes
     eeo-1: No
-    documentation: <link to company's diversity data>
-    date-updated: YYYY
-    status: No
+    documentation: http://amazon.com/diversity
+    date-updated: 2014
+    status: Yes
 
   - name: Canonical
     url: https://www.canonical.com/

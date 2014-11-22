@@ -3,3 +3,13 @@ companies:
     twitter: kickstarter
     url: http://kickstarter.com/
     img: kickstarter.jpg
+
+  - name: Pandora
+    url: http://www.pandora.com
+    twitter: pandora_radio
+    img: pandora.png
+    diversitydata: Yes
+    eeo-1: No
+    documentation: http://www.pandora.com/careers/#diversity
+    date-updated: 2014
+    status: Yes

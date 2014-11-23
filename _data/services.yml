@@ -1,4 +1,14 @@
 companies:
+  - name: Indiegogo
+    url: http://www.indiegogo.com
+    twitter: indiegogo
+    img: indiegogo.jpg
+    diversitydata: Yes
+    eeo-1: No
+    documentation: https://go.indiegogo.com/blog/2014/08/diversity-matters-always.html
+    date-updated: 2014
+    status: Yes
+
   - name: KickStarter
     twitter: kickstarter
     url: http://kickstarter.com/

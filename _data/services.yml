@@ -1,4 +1,14 @@
 companies:
+  - name: Etsy
+    url: http://www.etsy.com
+    twitter: etsy
+    img: etsy.jpg
+    diversitydata: Yes
+    eeo-1: No
+    documentation: https://blog.etsy.com/news/2014/diversity-at-etsy-more-than-just-numbers
+    date-updated: 2014
+    status: Yes
+
   - name: Indiegogo
     url: http://www.indiegogo.com
     twitter: indiegogo

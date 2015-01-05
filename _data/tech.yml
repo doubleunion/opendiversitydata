@@ -209,7 +209,7 @@ companies:
     twitter: Microsoft
     img: microsoft.jpeg
     diversitydata: Yes
-    eeo-1: No
+    eeo-1: Yes
     documentation: http://www.microsoft.com/en-us/news/inside_ms.aspx#EmploymentInfo
     date-updated: 2014
     status: Yes

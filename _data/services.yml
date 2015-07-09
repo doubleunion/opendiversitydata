@@ -33,3 +33,13 @@ companies:
     documentation: http://www.pandora.com/careers/#diversity
     date-updated: 2014
     status: Yes
+
+  - name: Pinterest
+    url: http://www.pinterest.com
+    twitter: pinterest
+    img: pinterest.png
+    diversitydata: No
+    eeo-1: No
+    documentation: http://engineering.pinterest.com/post/92753543099/diversity-and-inclusion-at-pinterest
+    date-updated: 2015
+    status: Yes

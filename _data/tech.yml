@@ -218,10 +218,10 @@ companies:
     url: https://www.netflix.com/
     twitter: Netflix
     img: netflix.jpeg
-    diversitydata: No
+    diversitydata: Yes
     eeo-1: No
-    documentation: <link to company's diversity data>
-    date-updated: YYYY
+    documentation: https://jobs.netflix.com/diversity
+    date-updated: 2015
     status: No
 
   - name: Oracle

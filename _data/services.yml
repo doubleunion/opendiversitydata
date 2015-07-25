@@ -38,7 +38,7 @@ companies:
     url: http://www.pinterest.com
     twitter: pinterest
     img: pinterest.png
-    diversitydata: No
+    diversitydata: Yes
     eeo-1: No
     documentation: http://engineering.pinterest.com/post/92753543099/diversity-and-inclusion-at-pinterest
     date-updated: 2015

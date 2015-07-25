@@ -244,6 +244,16 @@ companies:
     date-updated: YYYY
     status: No
 
+  - name: Shutterstock
+    url: https://www.shutterstock.com/
+    twitter: Shutterstock
+    img: shutterstock.jpg
+    diversitydata: No
+    eeo-1: No
+    documentation: <link to company's diversity data>
+    date-updated: YYYY
+    status: No
+
   - name: Twitter
     url: http://www.twitter.com/
     twitter: Twitter
@@ -283,4 +293,3 @@ companies:
     documentation: <link to company's diversity data>
     date-updated: YYYY
     status: No
-

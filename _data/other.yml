@@ -1,4 +1,14 @@
 companies:
+  - name: Bustle
+    url: http://www.bustle.com/
+    twitter: bustle
+    img: bustle.jpg
+    diversitydata: No
+    eeo-1: No
+    documentation: 
+    date-updated: 2014
+    status: No
+
   - name: BuzzFeed
     url: http://www.buzzfeed.com
     twitter: BuzzFeed
@@ -18,3 +28,4 @@ companies:
     documentation: 
     date-updated: 2014
     status: No
+

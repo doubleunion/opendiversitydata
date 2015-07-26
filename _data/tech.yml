@@ -254,6 +254,16 @@ companies:
     date-updated: YYYY
     status: No
 
+  - name: Stack Exchange
+    url: http://stackexchange.com/
+    twitter: stackexchange
+    img: stackexchange.png
+    diversitydata: No
+    eeo-1: No
+    documentation: 
+    date-updated: YYYY
+    status: No
+
   - name: Twitter
     url: http://www.twitter.com/
     twitter: Twitter

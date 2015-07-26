@@ -264,6 +264,16 @@ companies:
     date-updated: YYYY
     status: No
 
+  - name: Stack Exchange
+    url: http://stackexchange.com/
+    twitter: stackexchange
+    img: stackexchange.png
+    diversitydata: No
+    eeo-1: No
+    documentation: 
+    date-updated: YYYY
+    status: No
+
   - name: Trello
     url: http://www.trello.com/
     twitter: Trello

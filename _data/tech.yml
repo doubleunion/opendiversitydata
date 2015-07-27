@@ -254,6 +254,16 @@ companies:
     date-updated: YYYY
     status: No
 
+  - name: Trello
+    url: http://www.trello.com/
+    twitter: Trello
+    img: trello.png
+    diversitydata: No
+    eeo-1: No
+    documentation: 
+    date-updated: 2014
+    status: No
+
   - name: Twitter
     url: http://www.twitter.com/
     twitter: Twitter

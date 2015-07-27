@@ -124,6 +124,16 @@ companies:
     date-updated: 2014
     status: No
 
+  - name: Fog Creek
+    url: https://www.fogcreek.com/
+    twitter: FogCreek
+    img: fogcreek.jpg
+    diversitydata: No
+    eeo-1: No
+    documentation: 
+    date-updated: 2014
+    status: No
+
   - name: Github
     url: https://github.com/
     twitter: Github

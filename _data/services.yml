@@ -1,4 +1,14 @@
 companies:
+  - name: DigitalOcean
+    url: http://www.digitalocean.com
+    twitter: DigitalOcean
+    img: digitalocean.jpg
+    diversitydata: NO
+    eeo-1: No
+    documentation: 
+    date-updated: YYYY
+    status: No
+
   - name: Etsy
     url: http://www.etsy.com
     twitter: etsy

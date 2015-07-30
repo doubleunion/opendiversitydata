@@ -294,6 +294,16 @@ companies:
     date-updated: 2014
     status: Yes
 
+  - name: VMware
+    url: http://www.vmware.com/
+    twitter: VMware
+    img: vmware.png
+    diversitydata: No
+    eeo-1: No
+    documentation:
+    date-updated: YYYY
+    status: No
+
   - name: Yelp
     url: https://www.yelp.com/
     twitter: Yelp

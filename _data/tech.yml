@@ -8,7 +8,7 @@ companies:
     documentation: https://apple.com/diversity
     date-updated: 2014
     status: Yes
- 
+
   - name: Atlassian
     url: https://www.atlassian.com/
     twitter: atlassian
@@ -130,7 +130,7 @@ companies:
     img: fogcreek.jpg
     diversitydata: No
     eeo-1: No
-    documentation: 
+    documentation: <link to company's diversity data>
     date-updated: 2014
     status: No
 
@@ -280,7 +280,7 @@ companies:
     img: trello.png
     diversitydata: No
     eeo-1: No
-    documentation: 
+    documentation: <link to company's diversity data>
     date-updated: 2014
     status: No
 
@@ -294,6 +294,16 @@ companies:
     date-updated: 2014
     status: Yes
 
+  - name: VMware
+    url: http://www.vmware.com/
+    twitter: VMware
+    img: vmware.png
+    diversitydata: No
+    eeo-1: No
+    documentation:
+    date-updated: YYYY
+    status: No
+
   - name: Yelp
     url: https://www.yelp.com/
     twitter: Yelp
@@ -303,7 +313,7 @@ companies:
     documentation: http://officialblog.yelp.com/2014/08/workforce-diversity-at-yelp.html
     date-updated: 2014
     status: Yes
-    
+
   - name: SendGrid
     url: https://www.sendgrid.com/
     twitter: SendGrid
@@ -312,7 +322,7 @@ companies:
     eeo-1: No
     documentation: https://sendgrid.com/blog/diversity-sendgrid/
     date-updated: 2014
-    status: No 
+    status: No
 
   - name: Zynga
     url: https://www.zynga.com/

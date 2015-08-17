@@ -44,6 +44,10 @@ companies:
     date-updated: 2014
     status: Yes
 
+  - name: Mozilla
+    url: http://www.mozilla.org
+    twitter: Mozilla
+
   - name: Amazon
     url: https://www.amazon.com/
     twitter: Amazon

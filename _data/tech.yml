@@ -248,14 +248,14 @@ companies:
     date-updated: 2012
     status: No
 
-  - name: Redhat
+  - name: Red Hat
     url: https://www.redhat.com/
-    twitter: RedHatSoftware
+    twitter: RedHatNews
     img: redhat.png
-    diversitydata: No
+    diversitydata: Yes
     eeo-1: No
-    documentation: <link to company's diversity data>
-    date-updated: YYYY
+    documentation: http://www.redhat.com/en/about/blog/diversity-and-our-business
+    date-updated: 2014
     status: No
 
   - name: Shutterstock

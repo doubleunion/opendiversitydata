@@ -9,6 +9,16 @@ companies:
     date-updated: YYYY
     status: No
 
+  - name: Buffer
+    url: https://buffer.com
+    twitter: buffer
+    img: buffer.jpg
+    diversitydata: Yes
+    eeo-1: No
+    documentation: http://diversity.buffer.com/
+    date-updated: 2015
+    status: Yes
+
   - name: Etsy
     url: http://www.etsy.com
     twitter: etsy

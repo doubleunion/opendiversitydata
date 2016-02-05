@@ -53,3 +53,13 @@ companies:
     documentation: https://blog.pinterest.com/en/our-plan-more-diverse-pinterest
     date-updated: 2015
     status: Yes
+
+  - name: Slack
+    url: https://www.slack.com
+    twitter: SlackHQ
+    img: slack.png
+    diversitydata: Yes
+    eeo-1: No
+    documentation: http://slackhq.com/post/128721741660/inclusion-and-diversity-at-slack
+    date-updated: 2015
+    status: Yes

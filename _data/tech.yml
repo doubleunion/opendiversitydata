@@ -248,6 +248,16 @@ companies:
     date-updated: 2012
     status: No
 
+  - name: Pivotal
+    url: http://www.pivotal.io
+    twitter: Pivotal
+    img: pivotal-square-32x32.jpg
+    diversitydata: Yes
+    eeo-1: No
+    documentation: https://blog.pivotal.io/?p=35803
+    date-updated: 2016
+    status: No
+
   - name: Red Hat
     url: https://www.redhat.com/
     twitter: RedHatNews

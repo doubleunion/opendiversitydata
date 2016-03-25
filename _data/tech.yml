@@ -251,7 +251,7 @@ companies:
   - name: Pivotal
     url: http://www.pivotal.io
     twitter: Pivotal
-    img: pivotal-square-32x32.jpg
+    img: pivotal.jpg
     diversitydata: Yes
     eeo-1: No
     documentation: https://blog.pivotal.io/?p=35803

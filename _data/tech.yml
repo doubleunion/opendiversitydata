@@ -4,15 +4,20 @@ companies:
     twitter: Apple
     img: apple.png
     diversitydata: Yes
-    eeo-1: No
+    eeo-1: Yes
     documentation: https://apple.com/diversity
-    date-updated: 2014
+    date-updated: 2015
     status: Yes
 
   - name: Atlassian
     url: https://www.atlassian.com/
     twitter: atlassian
     img: atlassian.jpg
+    diversitydata: Yes
+    eeo-1: No
+    documentation: https://www.atlassian.com/diversity
+    date-updated: 2016
+    status: Yes
 
   - name: LinkedIn
     url: https://www.linkedin.com/

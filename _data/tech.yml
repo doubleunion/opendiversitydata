@@ -352,3 +352,13 @@ companies:
     documentation: <link to company's diversity data>
     date-updated: YYYY
     status: No
+
+  - name: Sophicware
+    url: http://sophicware.com/
+    twitter: sophicware
+    img: sophicware.png
+    diversitydata: Yes
+    eeo-1: No
+    documentation: http://sophicware.com/diversity
+    date-updated: 2016
+    status: Yes

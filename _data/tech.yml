@@ -52,6 +52,11 @@ companies:
   - name: Mozilla
     url: http://www.mozilla.org
     twitter: Mozilla
+    diversitydata: Yes
+    eeo-1: Yes
+    documentation: https://www.mozilla.org/en-US/foundation/annualreport/2014/faq/
+    date-updated: 2015
+    status: Yes
 
   - name: Amazon
     url: https://www.amazon.com/

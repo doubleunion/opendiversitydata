@@ -367,3 +367,13 @@ companies:
     documentation: http://sophicware.com/diversity
     date-updated: 2016
     status: Yes
+
+  - name: Veeva Systems
+    url: http://veeva.com/
+    twitter: veevasystems
+    img: veeva.png
+    diversitydata: No
+    eeo-1: No
+    documentation: <link to company's diversity data>
+    date-updated: 2016
+    status: No

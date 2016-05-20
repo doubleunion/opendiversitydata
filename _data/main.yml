@@ -14,6 +14,10 @@ sections:
     title: Defense
     icon: globe
 
+  - id: gamedev
+    title: Game Developement
+    icon: controller #this feature looks unimplimented though?
+
   - id: other
     title: Other
     icon: globe

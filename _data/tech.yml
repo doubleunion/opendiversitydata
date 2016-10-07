@@ -35,8 +35,8 @@ companies:
     img: google.png
     diversitydata: Yes
     eeo-1: Yes
-    documentation: http://www.google.com/diversity/at-google.html
-    date-updated: 2014
+    documentation: https://www.google.com/diversity/
+    date-updated: 2016
     status: Yes
 
   - name: Yahoo

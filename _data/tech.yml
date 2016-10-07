@@ -152,11 +152,11 @@ companies:
     url: https://github.com/
     twitter: Github
     img: github.jpeg
-    diversitydata: No
+    diversitydata: Yes
     eeo-1: No
-    documentation: <link to company's diversity data>
-    date-updated: YYYY
-    status: No
+    documentation: https://diversity.github.com/
+    date-updated: 2016
+    status: Yes
 
   - name: Groupon
     url: https://www.groupon.com/

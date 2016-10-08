@@ -377,3 +377,13 @@ companies:
     documentation: <link to company's diversity data>
     date-updated: 2016
     status: No
+    
+  - name: Tesla
+    url: https://www.tesla.com
+    twitter: teslamotors
+    img: tesla.png
+    diversitydata: No
+    eeo-1: No
+    documentation: <link to company's diversity data>
+    date-updated: 2016
+    status: No

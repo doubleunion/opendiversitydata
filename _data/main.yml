@@ -11,7 +11,7 @@ sections:
     icon: dollar
 
   - id: defense
-    title: Defense
+    title: Defense and Space
     icon: globe
 
   - id: other

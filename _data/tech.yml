@@ -63,9 +63,9 @@ companies:
     twitter: Amazon
     img: amazon.jpeg
     diversitydata: Yes
-    eeo-1: No
+    eeo-1: Yes
     documentation: http://amazon.com/diversity
-    date-updated: 2014
+    date-updated: 2015
     status: Yes
 
   - name: Canonical
@@ -133,7 +133,7 @@ companies:
     twitter: Facebook
     img: facebook.png
     diversitydata: Yes
-    eeo-1: No
+    eeo-1: Yes
     documentation: http://newsroom.fb.com/news/2014/06/building-a-more-diverse-facebook/
     date-updated: 2014
     status: No
@@ -172,11 +172,11 @@ companies:
     url: https://www.hp.com/
     twitter: HP
     img: HP.png
-    diversitydata: No
-    eeo-1: No
-    documentation: <link to company's diversity data>
-    date-updated: YYYY
-    status: No
+    diversitydata: Yes
+    eeo-1: Yes
+    documentation: http://h20195.www2.hp.com/V2/GetDocument.aspx?docname=c05169505
+    date-updated: 2015
+    status: Yes
 
   - name: Ingram Micro
     url: http://www.ingrammicro.com/
@@ -313,7 +313,7 @@ companies:
     twitter: Twitter
     img: twitter.jpeg
     diversitydata: Yes
-    eeo-1: No
+    eeo-1: Yes
     documentation: https://blog.twitter.com/2014/building-a-twitter-we-can-be-proud-of
     date-updated: 2014
     status: Yes

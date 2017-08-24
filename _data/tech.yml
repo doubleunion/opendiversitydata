@@ -1,4 +1,14 @@
 companies:
+  - name: Aibnb
+    url: https://www.airbnb.com/
+    twitter: Airbnb
+    img: airbnb.png
+    diversitydata: Yes
+    eeo-1: Yes
+    documentation: http://blog.airbnb.com/employee-diversity-belonging-2016-assesment/
+    date-updated: 2016
+    status: Yes
+
   - name: Apple
     url: https://www.apple.com/
     twitter: Apple
@@ -6,7 +16,7 @@ companies:
     diversitydata: Yes
     eeo-1: Yes
     documentation: https://apple.com/diversity
-    date-updated: 2015
+    date-updated: 2016
     status: Yes
 
   - name: Atlassian
@@ -63,9 +73,9 @@ companies:
     twitter: Amazon
     img: amazon.jpeg
     diversitydata: Yes
-    eeo-1: No
+    eeo-1: Yes
     documentation: http://amazon.com/diversity
-    date-updated: 2014
+    date-updated: 2016
     status: Yes
 
   - name: Canonical
@@ -133,10 +143,10 @@ companies:
     twitter: Facebook
     img: facebook.png
     diversitydata: Yes
-    eeo-1: No
-    documentation: http://newsroom.fb.com/news/2014/06/building-a-more-diverse-facebook/
-    date-updated: 2014
-    status: No
+    eeo-1: Yes
+    documentation: https://newsroom.fb.com/news/2016/07/facebook-diversity-update-positive-hiring-trends-show-progress/
+    date-updated: 2016
+    status: Yes
 
   - name: Fog Creek
     url: https://www.fogcreek.com/
@@ -313,9 +323,9 @@ companies:
     twitter: Twitter
     img: twitter.jpeg
     diversitydata: Yes
-    eeo-1: No
-    documentation: https://blog.twitter.com/2014/building-a-twitter-we-can-be-proud-of
-    date-updated: 2014
+    eeo-1: Yes
+    documentation: https://blog.twitter.com/2017/building-a-more-inclusive-twitter-in-2016
+    date-updated: 2016
     status: Yes
 
   - name: VMware

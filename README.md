@@ -21,7 +21,7 @@ If you'd like to contribute, read the guidelines here:
 ## License
 
 This code is distributed under the MIT license. For more info, read the
-[LICENSE](license) file distributed with the source code.
+[LICENSE][license] file distributed with the source code.
 
 ## Thanks
 

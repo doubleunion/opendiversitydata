@@ -1,11 +1,31 @@
 companies:
-  - name: Add Me!
-    url: https://github.com/doubleunion/opendiversitydata
-    twitter: 
-    img: 
-    diversitydata: No 
+  - name: Bustle
+    url: http://www.bustle.com/
+    twitter: bustle
+    img: bustle.jpg
+    diversitydata: No
     eeo-1: No
-    documentation: <link to company's diversity data>
-    date-updated: 
+    documentation: 
+    date-updated: 2014
+    status: No
+
+  - name: BuzzFeed
+    url: http://www.buzzfeed.com
+    twitter: BuzzFeed
+    img: buzzfeed.png
+    diversitydata: Yes
+    eeo-1: No
+    documentation: http://www.buzzfeed.com/bensmith/what-were-doing-to-keep-building-a-diverse-editorial-operati#1pp5xgn
+    date-updated: 2014
+    status: Yes
+
+  - name: Vox
+    url: http://www.vox.com
+    twitter: Vox
+    img: vox.jpg
+    diversitydata: No
+    eeo-1: No
+    documentation: 
+    date-updated: 2014
     status: No
 

@@ -3,12 +3,15 @@ sections:
     title: Technology
     icon: code
 
+  - id: services
+    title: Services
+
   - id: banking
     title: Banking / Finance
     icon: dollar
 
   - id: defense
-    title: Defense
+    title: Defense and Space
     icon: globe
 
   - id: other

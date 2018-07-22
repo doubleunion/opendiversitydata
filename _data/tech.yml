@@ -1,13 +1,33 @@
 companies:
+  - name: Airbnb
+    url: https://www.airbnb.com/
+    twitter: Airbnb
+    img: airbnb.png
+    diversitydata: Yes
+    eeo-1: Yes
+    documentation: https://www.airbnb.com/diversity/belonging
+    date-updated: 2017
+    status: Yes
+
   - name: Apple
     url: https://www.apple.com/
     twitter: Apple
     img: apple.png
-    diversitydata: No
+    diversitydata: Yes
+    eeo-1: Yes
+    documentation: https://apple.com/diversity
+    date-updated: 2016
+    status: Yes
+
+  - name: Atlassian
+    url: https://www.atlassian.com/
+    twitter: atlassian
+    img: atlassian.jpg
+    diversitydata: Yes
     eeo-1: No
-    documentation: <link to company's diversity data>
-    date-updated: YYYY
-    status: No
+    documentation: https://www.atlassian.com/diversity
+    date-updated: 2016
+    status: Yes
 
   - name: LinkedIn
     url: https://www.linkedin.com/
@@ -15,8 +35,8 @@ companies:
     img: linkedin.jpeg
     diversitydata: Yes
     eeo-1: Yes
-    documentation: http://blog.linkedin.com/2014/06/12/linkedins-workforce-diversity/
-    date-updated: 2014
+    documentation: http://blog.linkedin.com/2015/06/08/linkedins-2015-workforce-diversity/
+    date-updated: 2015
     status: Yes
 
   - name: Google
@@ -25,8 +45,8 @@ companies:
     img: google.png
     diversitydata: Yes
     eeo-1: Yes
-    documentation: http://www.google.com/diversity/at-google.html
-    date-updated: 2014
+    documentation: https://www.google.com/diversity/
+    date-updated: 2016
     status: Yes
 
   - name: Yahoo
@@ -39,15 +59,24 @@ companies:
     date-updated: 2014
     status: Yes
 
+  - name: Mozilla
+    url: http://www.mozilla.org
+    twitter: Mozilla
+    diversitydata: Yes
+    eeo-1: Yes
+    documentation: https://www.mozilla.org/en-US/foundation/annualreport/2014/faq/
+    date-updated: 2015
+    status: Yes
+
   - name: Amazon
     url: https://www.amazon.com/
     twitter: Amazon
     img: amazon.jpeg
-    diversitydata: No
-    eeo-1: No
-    documentation: <link to company's diversity data>
-    date-updated: YYYY
-    status: No
+    diversitydata: Yes
+    eeo-1: Yes
+    documentation: http://amazon.com/diversity
+    date-updated: 2016
+    status: Yes
 
   - name: Canonical
     url: https://www.canonical.com/
@@ -103,19 +132,29 @@ companies:
     url: https://www.ebay.com/
     twitter: eBay
     img: ebay.jpeg
-    diversitydata: No
+    diversitydata: Yes
     eeo-1: No
-    documentation: http://money.cnn.com/interactive/technology/tech-diversity-data/
-    date-updated: 2011
-    status: No
+    documentation: http://blog.ebay.com/building-stronger-better-diverse-ebay/
+    date-updated: 2014
+    status: Yes
 
   - name: Facebook
     url: https://www.facebook.com/
     twitter: Facebook
     img: facebook.png
     diversitydata: Yes
+    eeo-1: Yes
+    documentation: https://newsroom.fb.com/news/2016/07/facebook-diversity-update-positive-hiring-trends-show-progress/
+    date-updated: 2016
+    status: Yes
+
+  - name: Fog Creek
+    url: https://www.fogcreek.com/
+    twitter: FogCreek
+    img: fogcreek.jpg
+    diversitydata: No
     eeo-1: No
-    documentation: http://newsroom.fb.com/news/2014/06/building-a-more-diverse-facebook/
+    documentation: <link to company's diversity data>
     date-updated: 2014
     status: No
 
@@ -123,21 +162,21 @@ companies:
     url: https://github.com/
     twitter: Github
     img: github.jpeg
-    diversitydata: No
+    diversitydata: Yes
     eeo-1: No
-    documentation: <link to company's diversity data>
-    date-updated: YYYY
-    status: No
+    documentation: https://diversity.github.com/
+    date-updated: 2016
+    status: Yes
 
   - name: Groupon
     url: https://www.groupon.com/
     twitter: Groupon
     img: groupon.png
-    diversitydata: No
-    eeo-1: No
-    documentation: <link to company's diversity data>
-    date-updated: YYYY
-    status: No
+    diversitydata: Yes
+    eeo-1: Yes
+    documentation: https://www.groupon.com/blog/cities/groupon-releases-diversity-data
+    date-updated: 2014
+    status: Yes
 
   - name: Hewlett-Packard
     url: https://www.hp.com/
@@ -204,7 +243,7 @@ companies:
     twitter: Microsoft
     img: microsoft.jpeg
     diversitydata: Yes
-    eeo-1: No
+    eeo-1: Yes
     documentation: http://www.microsoft.com/en-us/news/inside_ms.aspx#EmploymentInfo
     date-updated: 2014
     status: Yes
@@ -213,10 +252,10 @@ companies:
     url: https://www.netflix.com/
     twitter: Netflix
     img: netflix.jpeg
-    diversitydata: No
+    diversitydata: Yes
     eeo-1: No
-    documentation: <link to company's diversity data>
-    date-updated: YYYY
+    documentation: https://jobs.netflix.com/diversity
+    date-updated: 2015
     status: No
 
   - name: Oracle
@@ -229,14 +268,54 @@ companies:
     date-updated: 2012
     status: No
 
-  - name: Redhat
+  - name: Pivotal
+    url: http://www.pivotal.io
+    twitter: Pivotal
+    img: pivotal.jpg
+    diversitydata: Yes
+    eeo-1: No
+    documentation: https://blog.pivotal.io/?p=35803
+    date-updated: 2016
+    status: No
+
+  - name: Red Hat
     url: https://www.redhat.com/
-    twitter: RedHatSoftware
+    twitter: RedHatNews
     img: redhat.png
+    diversitydata: Yes
+    eeo-1: No
+    documentation: http://www.redhat.com/en/about/blog/diversity-and-our-business
+    date-updated: 2014
+    status: No
+
+  - name: Shutterstock
+    url: https://www.shutterstock.com/
+    twitter: Shutterstock
+    img: shutterstock.jpg
     diversitydata: No
     eeo-1: No
     documentation: <link to company's diversity data>
     date-updated: YYYY
+    status: No
+
+  - name: Stack Exchange
+    url: http://stackexchange.com/
+    twitter: stackexchange
+    img: stackexchange.png
+    diversitydata: No
+    eeo-1: No
+    documentation: 
+    date-updated: YYYY
+    status: No
+
+  - name: Trello
+    url: http://www.trello.com/
+    twitter: Trello
+    img: trello.png
+    diversitydata: No
+    eeo-1: No
+    documentation: <link to company's diversity data>
+    date-updated: 2014
     status: No
 
   - name: Twitter
@@ -244,19 +323,39 @@ companies:
     twitter: Twitter
     img: twitter.jpeg
     diversitydata: Yes
-    eeo-1: No
-    documentation: https://blog.twitter.com/2014/building-a-twitter-we-can-be-proud-of
-    date-updated: 2014
+    eeo-1: Yes
+    documentation: https://blog.twitter.com/2017/building-a-more-inclusive-twitter-in-2016
+    date-updated: 2016
     status: Yes
+
+  - name: VMware
+    url: http://www.vmware.com/
+    twitter: VMware
+    img: vmware.png
+    diversitydata: No
+    eeo-1: No
+    documentation:
+    date-updated: YYYY
+    status: No
 
   - name: Yelp
     url: https://www.yelp.com/
     twitter: Yelp
     img: yelp.jpeg
-    diversitydata: No
+    diversitydata: Yes
+    eeo-1: Yes
+    documentation: http://officialblog.yelp.com/2014/08/workforce-diversity-at-yelp.html
+    date-updated: 2014
+    status: Yes
+
+  - name: SendGrid
+    url: https://www.sendgrid.com/
+    twitter: SendGrid
+    img: sendgrid.png
+    diversitydata: Yes
     eeo-1: No
-    documentation: <link to company's diversity data>
-    date-updated: YYYY
+    documentation: https://sendgrid.com/blog/diversity-sendgrid/
+    date-updated: 2014
     status: No
 
   - name: Zynga
@@ -269,3 +368,32 @@ companies:
     date-updated: YYYY
     status: No
 
+  - name: Sophicware
+    url: http://sophicware.com/
+    twitter: sophicware
+    img: sophicware.png
+    diversitydata: Yes
+    eeo-1: No
+    documentation: http://sophicware.com/diversity
+    date-updated: 2016
+    status: Yes
+
+  - name: Veeva Systems
+    url: http://veeva.com/
+    twitter: veevasystems
+    img: veeva.png
+    diversitydata: No
+    eeo-1: No
+    documentation: <link to company's diversity data>
+    date-updated: 2016
+    status: No
+    
+  - name: Tesla
+    url: https://www.tesla.com
+    twitter: teslamotors
+    img: tesla.png
+    diversitydata: No
+    eeo-1: No
+    documentation: <link to company's diversity data>
+    date-updated: 2016
+    status: No

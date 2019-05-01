@@ -1,0 +1,132 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "opendiversitydata",
+  "version": "0.0.2",
+  "description": "JSON schema for U.S. EEO-1 survey data",
+  "type": "object",
+  "properties": {
+    "meta": {
+      "type": "object",
+      "properties": { 
+        "company": {
+          "type": "string"
+        },
+        "year": {
+          "type": "integer",
+          "minimum": 1965,
+          "maximum": 2014
+        }
+      },
+      "required": ["company", "year"]
+    },
+    "section_a": {
+      "type": "object",
+      "properties": {
+        "reporting_type": {
+          "type": "string",
+          "enum": [
+            "Single-establishement Employer Report",
+            "Consolidated Report",
+            "Headquarters Unit Report",
+            "Individual Establishment Report",
+            "Special Report"
+          ]
+        }
+      },
+      "required": ["reporting_type"]
+    },
+    "section_b": {
+      "type": "object",
+      "properties": {
+        "parent_company": {
+          "type": "string"
+        },
+        "address": {
+          "type": "object",
+          "properties": {
+            "street_address": { "type": "string" },
+            "city": { "type": "string" },
+            "state": {
+              "type": "string",
+              "enum": ["AL", "AK", "AS", "AZ", "AR", "CA", "CO", "CT", "DE", "DC", "FM", "FL", "GA", "GU", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MH", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "MP", "OH", "OK", "OR", "PW", "PA", "PR", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VI", "VA", "WA", "WV", "WI", "WY"]
+            },
+            "zip_code": { "type": "string" }
+          },
+          "required": ["street_address", "city", "state", "zip_code"]
+        },
+        "previous_year_report": {
+          "type": "boolean"
+        }
+      },
+      "required": ["parent_company", "address", "previous_year_report"]
+    },
+    "section_c": {
+      "type": "object",
+      "properties": {
+        "at_least_100": { "type": "boolean" },
+        "affiliated": { "type": "boolean" },
+        "DUNS": { "type": "boolean" }
+      },
+      "required": ["at_least_100", "affiliated", "DUNS"]
+    },
+    "section_d": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "job_category": {
+            "type": "string",
+            "enum": [
+              "Executive/Senior Level Officials and Managers",
+              "First/Mid Level Officials and Managers",
+              "Professionals",
+              "Technicians",
+              "Sales Workers",
+              "Administrative Support Workers",
+              "Craft Workers",
+              "Operatives",
+              "Laborers and Helpers",
+              "Service Workers"
+            ]
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "properties": {
+                "race": {
+                  "type": "string",
+                  "enum": [
+                    "Hispanic or Latino",
+                    "White",
+                    "Black or African American",
+                    "Native Hawaiian or Other Pacific Islander",
+                    "Asian",
+                    "American Indian or Alaska Native",
+                    "Two or More Races"
+                  ]
+                },
+                "men": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "women": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": ["race", "men", "women"]
+            },
+            "minItems": 7,
+            "maxItems": 7,
+            "uniqueItems": true
+          }
+        },
+        "required": ["job_category", "data"]
+      },
+      "minItems": 10,
+      "maxItems": 10,
+      "uniqueItems": true
+    }
+  },
+  "required": ["meta", "section_d"]
+}

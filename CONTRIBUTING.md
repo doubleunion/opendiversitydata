@@ -1,9 +1,9 @@
-Contributing to diversitydatapledge.org
+Contributing to [opendiversitydata](http://opendiversitydata.org/)
 =======================
 
 ## Contributing
 
-The easiest way to contribute is to file an issue in [Github][https://github.com/doubleunion/opendiversitydata/issues].
+The easiest way to contribute is to file an issue in [Github][issues].
 If you're interested in contributing via pull request, read on.
 
 All the data is managed through a series of [Yaml][yaml] files so it may be useful to read
@@ -66,3 +66,4 @@ that your company chunk follow the same order as the example above.
 This site is focused on US companies, as there is a standard document format available. If your country has a standard format analogous to the EEO-1, please file an issue as we will be refactoring the site to add more countries.
 
 [yaml]: http://www.yaml.org/
+[issues]: https://github.com/doubleunion/opendiversitydata/issues

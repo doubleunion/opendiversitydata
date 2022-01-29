@@ -1,3 +1,5 @@
+Archived as of January 2022 because this project has not had any active maintainers for a long time. If you are interested in reviving this project and would like to get in touch with Double Union repository administrators, please email board@doubleunion.org. Thanks!
+
 OpenDiversityData.org 
 =================
 
